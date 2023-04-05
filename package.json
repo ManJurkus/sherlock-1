@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev" : "dead-server --host=localhost --port=4401",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Mantas",
-  "license": "BIT"
+  "license": "BIT",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
 }
